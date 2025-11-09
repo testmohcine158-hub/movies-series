@@ -15,7 +15,7 @@ if (empty($_SESSION['user_id'])) {
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Website || Animated Landing Page</title>
+    <title>Trailer</title>
     <link rel="stylesheet" href="./css/main.css" />
 </head>
 
