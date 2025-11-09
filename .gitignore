@@ -1,25 +1,24 @@
-# CakePHP 3
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
 
-/vendor/*
-/config/app.php
+# PHP / Composer
+/vendor/
+composer.lock
 
-/tmp/cache/models/*
-!/tmp/cache/models/empty
-/tmp/cache/persistent/*
-!/tmp/cache/persistent/empty
-/tmp/cache/views/*
-!/tmp/cache/views/empty
-/tmp/sessions/*
-!/tmp/sessions/empty
-/tmp/tests/*
-!/tmp/tests/empty
+# Env & secrets
+.env
+bd.php
 
-/logs/*
-!/logs/empty
+# Logs / cache
+*.log
+storage/
+cache/
 
-# CakePHP 2
+# Node (si jamais)
+node_modules/
 
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
+# Mail libs locales (si tu ne veux PAS les versionner)
+#PHPMailer/
